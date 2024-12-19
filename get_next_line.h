@@ -15,7 +15,18 @@
 
 
 #include <unistd.h>
+#include <stddef.h>
+#include <fcntl.h>
+#include <stdlib.h>
 
+size_t	ft_strlen(char *str);
+char	*ft_strdup(char *src);
+void	ft_strtrim(char **storage);
+char	*ft_strncpy(char *dest, char *src, int destsize);
+char *ft_strcat(char *dest, char *src);
+char *get_next_line(int fd);
+int checknewline(char *str);
+char *f_work(char *staticholder);
 
 
 
